@@ -18,3 +18,7 @@ The Python API requires Flask and anthro; Vercel installs them from `api/require
 
 ## Important
 This is an independent WHO-based implementation, not official Poshan Tracker software. Validate against the exact Poshan Tracker release before healthcare/government use. Under-2 measurement technique (recumbent length vs standing height) needs particular validation.
+
+
+## Vercel fix
+This version includes `pyproject.toml` with `[tool.vercel] entrypoint = "api.calculate:app"` and upgrades Next.js to 16.4.6.
