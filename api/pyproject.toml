@@ -1,0 +1,11 @@
+[project]
+name = "poshan-growth-api"
+version = "1.0.1"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "Flask>=3.0,<4",
+  "anthro>=1.1.1,<2"
+]
+
+[tool.vercel]
+entrypoint = "calculate:app"
